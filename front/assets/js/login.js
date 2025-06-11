@@ -67,7 +67,7 @@ document.getElementById("formCadastro").addEventListener("submit", async (e) => 
   const senha = e.target.senha.value;
 
   try {
-    const response = await fetch("http://localhost:3000/usuarios", {
+    const response = await fetch("https://petshop-api-i52w.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ nome, email, telefone, senha }), // Incluído telefone
