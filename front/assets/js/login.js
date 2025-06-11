@@ -1,4 +1,4 @@
-const uri = 'http://localhost:3000'; 
+const uri = 'https://petshop-api-i52w.onrender.com'; 
 
 function login() {
     const form = document.querySelector('#formLogin');
